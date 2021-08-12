@@ -1,0 +1,22 @@
+{
+    "name": "bookstore-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon service.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "kittisak noidonapi",
+    "license": "ISC",
+    "dependencies": {
+        "cookie-parser": "^1.4.5",
+        "cookie-session": "^1.4.0",
+        "express": "^4.17.1",
+        "mysql2": "^2.2.5",
+        "node-fetch": "^2.6.1"
+    },
+    "devDependencies": {
+        "nodemon": "2.0.4"
+    }
+}
