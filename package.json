@@ -4,17 +4,22 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "dev": "nodemon service.js",
+        "dev": "nodemon server.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "kittisak noidonapi",
     "license": "ISC",
     "dependencies": {
         "cookie-parser": "^1.4.5",
-        "cookie-session": "^1.4.0",
         "express": "^4.17.1",
+        "express-jwt": "^6.1.0",
+        "express-validator": "^6.12.1",
+        "jsonwebtoken": "^8.5.1",
         "mysql2": "^2.2.5",
-        "node-fetch": "^2.6.1"
+        "node-fetch": "^2.6.1",
+        "passport": "^0.4.1",
+        "passport-jwt": "^4.0.0",
+        "passport-local": "^1.0.0"
     },
     "devDependencies": {
         "nodemon": "2.0.4"

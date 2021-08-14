@@ -5,5 +5,5 @@ Develop a RESTful API for a bookstore that allows a user to login, perform user 
 ## Run Bookstore RESTful API command.
 
 ```bash
-docker-compose up -d
+docker-compose up --build
 ```
